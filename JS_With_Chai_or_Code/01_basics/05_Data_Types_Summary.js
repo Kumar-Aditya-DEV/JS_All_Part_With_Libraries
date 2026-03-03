@@ -32,5 +32,27 @@ const myFun  = function(){};
 
 
 
+// ***********************************************************
+
+// two type of memory
+// 1. stack (primitive), 2.  Heap (Non-primitive)
+let myYoutubeName = "adityakumar@gmail.com";
+let anothername = myYoutubeName;
+anothername = "chaiaurcode ";
+
+console.log(myYoutubeName);
+console.log(anothername);
 
 
+let user1 = {
+  email : "user@google.com",
+  upi: "upi@123 "
+}
+
+
+let user2 = user1;
+
+user2.email = "Aditya@gmail.com";
+
+console.log(user1.email);
+console.log(user2.email);
